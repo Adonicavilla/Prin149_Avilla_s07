@@ -1,0 +1,91 @@
+/* CSS */
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+}
+
+header {
+background-color: #333;
+padding: 20px;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin: 0 10px;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+font-size: 18px;
+}
+
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.intro {
+background-color: #f2f2f2;
+text-align: center;
+padding: 50px;
+}
+
+.intro h1 {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.cta-btn {
+background-color: #333;
+color: #fff;
+padding: 10px 30px;
+border-radius: 25px;
+border: none;
+font-size: 20px;
+cursor: pointer;
+}
+
+.cta-btn:hover {
+background-color: #555;
+}
+
+.featured-products {
+display: inline-block;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 50px;
+}
+
+.product-card {
+border: 1px solid #ccc;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+padding: 20px;
+margin: 20px;
+text-align: center;
+}
+
+.product-card img {
+max-width: 100%;
+}
+
+.product-card h3 {
+margin-top: 10px;
+font-size: 24px;
+}
+
+.product-card p {
+margin-top: 10px;
+font-size: 18px;
+color: #333;
+}

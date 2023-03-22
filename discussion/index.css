@@ -1,0 +1,77 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*set the font-size of the root element to 16px*/
+/*html {
+	font-size: 20px;
+}*/
+body {
+	font-family: "Open San", sans-serif;
+}
+
+nav{
+	padding: 0.8rem;
+	background-color: #A94064;
+	color: white;
+	/*you can specify which side you will add a padding
+	padding-left:0.8rem;
+	padding-right: 0.8rem;
+	padding-top: 0.8rem;
+	padding-bottom: 0.8rem;
+
+	rem is a unit of measurement in CSS, which stands for 'root em'. It is relative to the root element of the document, which is typically the <html> element
+
+	rem unit is similar to em, which is also relative to the font-size of the parent element. However, unlike 'em', 'rem' is not affected by the font-size of the parent element
+
+	ex. 16px = 1rem
+	*/
+	/*set the font-size of an element to 1.5 rem (which is 24px if the root element is 16px)	*/
+	/*	font-size: 1.5rem;*/
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+/* *, - multiple selector allows us to use multiple selectors for one css rule */
+nav .nav, nav .nav-logo {
+	margin: 0.5rem;
+	display: inline;
+	/* display: inline allows us to change a block element into an inline element	*/	
+}
+
+img {
+	height: 30px;
+	width: 100px;
+}
+
+/*introsection*/
+#intro {
+	padding-left: 10%;
+	padding-right: 10%;
+	/* % was used to make page more responsive. So our padding on the left and right are now dependent on the width of the parent element */
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+#intro h2, #intro p{
+	margin-bottom: 1rem;
+}
+
+#intro button {
+	color: white;
+	font-weight: bold;
+	background-color: #c2195b;
+	border-radius: 25px;
+	font-size: 1rem;
+	padding: 1rem;
+}
+
+/*succeed-info*/
